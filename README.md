@@ -37,6 +37,7 @@ capture in their playthroughs without needing to search multiple sites.
 ### Design
 
 * [User Stories](designDocuments/userStories.md)
+* [Screen Design](designDocuments/screens.md)
 
 ### [Project Plan](projectPlan.md)
 
