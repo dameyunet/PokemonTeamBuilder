@@ -1,0 +1,133 @@
+package com.poki;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class Yellow{
+
+	@JsonProperty("front_gbc")
+	private String frontGbc;
+
+	@JsonProperty("front_gray")
+	private String frontGray;
+
+	@JsonProperty("back_transparent")
+	private String backTransparent;
+
+	@JsonProperty("back_gray")
+	private String backGray;
+
+	@JsonProperty("back_default")
+	private String backDefault;
+
+	@JsonProperty("front_default")
+	private String frontDefault;
+
+	@JsonProperty("front_transparent")
+	private String frontTransparent;
+
+	@JsonProperty("back_transparent_gray")
+	private String backTransparentGray;
+
+	@JsonProperty("back_gbc")
+	private String backGbc;
+
+	@JsonProperty("front_transparent_gray")
+	private String frontTransparentGray;
+
+	public void setFrontGbc(String frontGbc){
+		this.frontGbc = frontGbc;
+	}
+
+	public String getFrontGbc(){
+		return frontGbc;
+	}
+
+	public void setFrontGray(String frontGray){
+		this.frontGray = frontGray;
+	}
+
+	public String getFrontGray(){
+		return frontGray;
+	}
+
+	public void setBackTransparent(String backTransparent){
+		this.backTransparent = backTransparent;
+	}
+
+	public String getBackTransparent(){
+		return backTransparent;
+	}
+
+	public void setBackGray(String backGray){
+		this.backGray = backGray;
+	}
+
+	public String getBackGray(){
+		return backGray;
+	}
+
+	public void setBackDefault(String backDefault){
+		this.backDefault = backDefault;
+	}
+
+	public String getBackDefault(){
+		return backDefault;
+	}
+
+	public void setFrontDefault(String frontDefault){
+		this.frontDefault = frontDefault;
+	}
+
+	public String getFrontDefault(){
+		return frontDefault;
+	}
+
+	public void setFrontTransparent(String frontTransparent){
+		this.frontTransparent = frontTransparent;
+	}
+
+	public String getFrontTransparent(){
+		return frontTransparent;
+	}
+
+	public void setBackTransparentGray(String backTransparentGray){
+		this.backTransparentGray = backTransparentGray;
+	}
+
+	public String getBackTransparentGray(){
+		return backTransparentGray;
+	}
+
+	public void setBackGbc(String backGbc){
+		this.backGbc = backGbc;
+	}
+
+	public String getBackGbc(){
+		return backGbc;
+	}
+
+	public void setFrontTransparentGray(String frontTransparentGray){
+		this.frontTransparentGray = frontTransparentGray;
+	}
+
+	public String getFrontTransparentGray(){
+		return frontTransparentGray;
+	}
+
+	@Override
+ 	public String toString(){
+		return 
+			"Yellow{" + 
+			"front_gbc = '" + frontGbc + '\'' + 
+			",front_gray = '" + frontGray + '\'' + 
+			",back_transparent = '" + backTransparent + '\'' + 
+			",back_gray = '" + backGray + '\'' + 
+			",back_default = '" + backDefault + '\'' + 
+			",front_default = '" + frontDefault + '\'' + 
+			",front_transparent = '" + frontTransparent + '\'' + 
+			",back_transparent_gray = '" + backTransparentGray + '\'' + 
+			",back_gbc = '" + backGbc + '\'' + 
+			",front_transparent_gray = '" + frontTransparentGray + '\'' + 
+			"}";
+		}
+}
